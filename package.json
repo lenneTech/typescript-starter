@@ -26,7 +26,7 @@
     "coverage": "jest --coverage",
     "format": "prettier --write 'src/**/*.{js,ts,tsx,json}'",
     "lint": "eslint --ext .js,.ts src",
-    "postinstall": "node dist/bin/welcome.bin.js $INIT_CWD || true",
+    "postinstall": "[ -f dist/bin/welcome.bin.js ] && node dist/bin/welcome.bin.js $INIT_CWD || true",
     "prepack": "npm run build",
     "preversion": "npm run lint",
     "test": "jest",
