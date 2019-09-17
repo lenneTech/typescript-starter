@@ -1,6 +1,6 @@
 {
   "name": "@lenne.tech/typescript-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Start for a new typescript project",
   "keywords": [
     "lenne.Tech",
@@ -53,7 +53,8 @@
   "peerDependencies": {},
   "jest": {
     "preset": "ts-jest",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "rootDir": "tests"
   },
   "husky": {
     "hooks": {
