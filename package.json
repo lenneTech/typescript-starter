@@ -1,6 +1,6 @@
 {
   "name": "@lenne.tech/typescript-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Start for a new typescript project",
   "keywords": [
     "lenne.Tech",
@@ -26,7 +26,7 @@
     "coverage": "jest --coverage",
     "format": "prettier --write 'src/**/*.{js,ts,tsx,json}'",
     "lint": "eslint --ext .js,.ts src",
-    "postinstall": "[ -f dist/bin/welcome.bin.js ] && node dist/bin/welcome.bin.js $INIT_CWD || true",
+    "postinstall": "path-exists ./dist/bin/welcome.bin.js && node ./dist/bin/welcome.bin.js $INIT_CWD || true",
     "prepack": "npm run build",
     "preversion": "npm run lint",
     "test": "jest",
@@ -43,6 +43,7 @@
     "eslint-config-prettier": "6.1.0",
     "husky": "3.0.4",
     "jest": "24.9.0",
+    "path-exists-cli": "1.0.0",
     "prettier": "1.18.2",
     "pretty-quick": "1.11.1",
     "rimraf": "3.0.0",
