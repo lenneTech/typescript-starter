@@ -25,7 +25,7 @@ const run = async () => {
   // Everything is ok
   return;
 };
-run().then(error => {
+run().then((error) => {
   if (error) {
     console.log(error);
   }
