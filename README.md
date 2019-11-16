@@ -18,7 +18,6 @@ For example, it is ideal for creating a new npm package.
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):  
   the version control system for your source code
 
-
 ## Initialization
 
 ### Via [CLI](https://github.com/lenneTech/cli) (recommended)
@@ -28,10 +27,10 @@ $ npm install -g @lenne.tech/cli
 $ lt ts new <project-name>
 $ cd <project-name>
 $ npm test
+$ npm start
 ```
 
 Installation via the CLI is recommended, as automated adjustments are made to the configuration for the respective project, so that you can start development directly and spend as little time as possible on configuring the development environment.
-
 
 ### Via GitHub
 
@@ -39,10 +38,10 @@ Installation via the CLI is recommended, as automated adjustments are made to th
 $ git clone https://github.com/lenneTech/typescript-starter.git <project-name>
 $ cd <project-name>
 $ npm test
+$ npm start
 ```
 
 After the installation via GitHub it is recommended to adjust package.json and README.md directly.
-
 
 ## Update packages
 
