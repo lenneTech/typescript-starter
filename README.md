@@ -52,8 +52,7 @@ For regular control and easy update of new npm packages you can use e.g. [npm-ch
 ### Create a new CLI or shell script
 
 For the creation of a new CLI or a shell script we recommend [Gluegun](https://github.com/infinitered/gluegun).
-
-A corresponding starter is currently under development and will be linked here as soon as it is ready.
+To create a new CLI with the help of Gluegun we built the [CLI Starter](https://github.com/lenneTech/cli-starter).
 
 ### Create a new server
 
